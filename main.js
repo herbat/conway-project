@@ -64,11 +64,17 @@ function getNb (gm, x, y){
 }
 
 var Game = init("screen");
+var timer = new Date().getTime();
 
-setInterval(function (){
+for (let i = 0; i < 10000; i++){
     Game.gMap = step(Game.gMap);
-    draw(Game);
-}, STEP);
+}
+var end = new Date().getTime();
+console.log(timer-end);
+//setInterval(function (){
+//    Game.gMap = step(Game.gMap);
+//    //draw(Game);
+//}, STEP);
 
 
 
