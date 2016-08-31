@@ -1,0 +1,19 @@
+{
+  "name": "conway-project",
+  "version": "1.0.0",
+  "description": "Conway's game implemented in JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herbat/conway-project.git"
+  },
+  "author": "Attila Herbert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herbat/conway-project/issues"
+  },
+  "homepage": "https://github.com/herbat/conway-project#readme"
+}
