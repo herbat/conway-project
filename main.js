@@ -58,17 +58,12 @@ function getNb (gm, x, y){
     });
 }
 
-var Game = init("screen");
+var Game = init('screen');
 
 setInterval(function (){//repeat the steps every 50ms
     Game.gMap = step(Game.gMap);
     draw(Game);
 }, STEP);
-
-
-
-
-
 
 
 
