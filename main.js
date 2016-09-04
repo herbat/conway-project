@@ -6,17 +6,17 @@
 var insert = require('./insert');
 
 const STEP = 50;
-const WIDTH = 230, HEIGHT = 120;
+const WIDTH = 115, HEIGHT = 50;
 var ptr  = [[0, 1, 0, 0, 0, 0, 0],
-            [0, 0, 0, 1, 0, 0, 0],
-            [1, 1, 0, 0, 1, 1, 1]];
+            [0, 1, 0, 0, 0, 0, 0],
+            [0, 1, 0, 0, 1, 1, 1]];
 
 function init(scr) {
     var cwObj = {
         canvas: document.getElementById(scr),
         gMap: new Array(HEIGHT).fill(new Array(WIDTH).fill(0))
     };
-    draw(cwObj, ptr, 30, 70);
+    draw(cwObj, ptr, 20, 20);
     step(cwObj.gMap);
     return cwObj;
 }
